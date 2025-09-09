@@ -34,11 +34,11 @@ type Result = {
 };
 
 export default function Page() {
-  const [organization, setOrganization] = useState<OrganizationKey>("IT3049C-Fall25");
+  const [organization, setOrganization] = useState<OrganizationKey>("PLCY715");
   const [assignment, setAssignment] = useState<string>(() => {
     // Ensure we have a valid assignment on first load
-    const firstAssignment = Object.keys(ORGANIZATIONS["IT3049C-Fall25"].assignments)[0];
-    return firstAssignment || "🧑‍💻 Campus Portal (JS Exercises)";
+    const firstAssignment = Object.keys(ORGANIZATIONS["PLCY715"].assignments)[0];
+    return firstAssignment || "Week-4";
   });
   const [username, setUsername] = useState("");
   const [permission, setPermission] = useState<"pull"|"triage"|"push"|"maintain"|"admin">("admin");
