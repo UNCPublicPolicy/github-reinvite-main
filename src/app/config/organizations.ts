@@ -4,10 +4,12 @@ export const ORGANIZATIONS = {
     name: "PLCY715 Fall25",
     owner: "UNCPublicPolicy", // GitHub organization/owner name
     assignments: {
-      "🧑‍💻Week 2: Intro to R": "week-2",
-      "🧑‍💻Week 3: Getting Data": "week-3",
-      "🧑‍💻Week 4: Data Wrangling I": "week-4",
+      "👩🏻‍💻Week 2: Intro to R": "week-2",
+      "👾Week 3: Getting Data": "week-3",
+      "🤠Week 4: Data Wrangling I": "week-4",
       "🧑‍💻Week 5: Data Wrangling II": "week-5",
+      "🎨Week 6: Data Viz: "week-6",
+      "🌎Week 7: EDA: "week-7",
     }
   },
 } as const;
